@@ -12,14 +12,14 @@ For now, just type **no** for the two questions about dependencies.
 
 Inside *scr/* create a file named *GettingStarted.php*, and paste the code bellow
 
-<?php
+    <?php
 
-/**
- * Defining the class namespace
- * 
- * This is made of the vendor name and the package name.
- */
-namespace ChicoFreitas\GettingStarted;
+    /**
+    * Defining the class namespace
+    * 
+    * This is made of the vendor name and the package name.
+    */
+    namespace ChicoFreitas\GettingStarted;
 
     /**
     * Class GettingStarted
