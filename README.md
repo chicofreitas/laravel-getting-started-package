@@ -67,3 +67,36 @@ While in the root project directory, run
     $ php artisan serve
 
 and access the URL *http://127.0.0.1:8000/hello*
+
+## Creating the Service Provider
+
+*src/Providers/GettingStartedProvider.php*
+
+    <?php
+
+    namespace ChicoFreitas\GettingStarted\Providers;
+
+    use Illuminate\Support\ServiceProvider;
+
+    class GettingStartedProvider extends ServiceProvider
+    {
+        /**
+        * Bootstrap services.
+        * 
+        * @return void
+        */
+        public function boot()
+        {
+            # code...
+        }
+    }
+
+Registering the service provider inside *config/app.php*
+
+    #
+    'providers' => ServiceProvider::defaultProviders()->merge([
+        ...
+        ChicoFreitas\GettingStarted\GettingStartedProvider::class,
+    ])->toArray(),
+    #
+
