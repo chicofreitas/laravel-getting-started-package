@@ -1,0 +1,19 @@
+{
+    "name": "chicofreitas/getting-started-package",
+    "description": "This is an educational package project to teach some of Laravel architecture.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chicofreitas\\GettingStartedPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chico Freitas",
+            "email": "chicoo.freitas84@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
