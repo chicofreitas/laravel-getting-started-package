@@ -96,7 +96,7 @@ Registering the service provider inside *config/app.php*
     #
     'providers' => ServiceProvider::defaultProviders()->merge([
         ...
-        ChicoFreitas\GettingStarted\GettingStartedProvider::class,
+        ChicoFreitas\GettingStarted\Providers\GettingStartedProvider::class,
     ])->toArray(),
     #
 
