@@ -14,5 +14,6 @@
             "email": "chicoo.freitas84@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
