@@ -100,3 +100,7 @@ Registering the service provider inside *config/app.php*
     ])->toArray(),
     #
 
+## Saving the package at GitHub
+
+At this point, this package is at your 0.3.0 version since we made commits in each development step. 
+Now we will commit out 0.3.0 branch and create a release in our repo.
